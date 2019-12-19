@@ -30,5 +30,5 @@ print("Input name is %s, %i, %f" % (name, age, h))
 name = input('Input name:')
 print('your name is ' + name)
 
-
+#%%
 
