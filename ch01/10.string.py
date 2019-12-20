@@ -33,8 +33,7 @@ print("I ate %d apples. I was sick for %s days." % (number, day))
 """
 #%%
 str = "My name is Kim SooHyun"
-.....
-
+print(str.upper())
 
 
 
@@ -46,5 +45,5 @@ text
 
 #%%
 colors = ['red', 'blue', 'green', 'gray']
-rst = ......
+rst = ''.goin(colors)
 rst

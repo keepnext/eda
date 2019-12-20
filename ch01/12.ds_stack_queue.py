@@ -10,18 +10,27 @@ a.append(6)
 a
 
 #%%
-.......
+print(a.pop())
+print(a.pop())
 
+#%%
+print(a.pop(2))
+print(a.pop(-1))
 
+#%%
+print(a)
 
 #%%
 
 word = input("Input a word: ")
-world_list = ......
+word_list = list(word)
 print(len(world_list), world_list)
 
+
+#%%
 result = []
-.....
+for _ in range(len(word_list)):
+    result.append(word_list.pop())
 
 
 print('-' * 50)
